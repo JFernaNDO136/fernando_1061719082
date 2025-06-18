@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrumentos Musicales - El Mundo de la Música</title>
+    <style>
+        /* Estilos CSS básicos (puedes copiar y pegar los del index.html para consistencia) */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            background: #555;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background-color: #777;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        .instrument-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px 0;
+        }
+        .instrument-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .instrument-card img {
+            max-width: 100%;
+            height: 150px; /* Altura fija para las imágenes */
+            object-fit: cover; /* Asegura que la imagen cubra el espacio */
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .instrument-card h3 {
+            color: #0056b3;
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Instrumentos Musicales</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="generos.html">Géneros Musicales</a></li>
+            <li><a href="artistas.html">Artistas Famosos</a></li>
+            <li><a href="instrumentos.html">Instrumentos</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Los Pilares del Sonido</h2>
+
+        <div class="instrument-grid">
+            <div class="instrument-card">
+                <img src="imag/guitarra.jpg" alt="Guitarra acústica">
+                <h3>Guitarra</h3>
+                <p>Un instrumento de cuerda popular en muchos géneros, desde el folk hasta el rock.</p>
+            </div>
+            <div class="instrument-card">
+                <img src="imag/piano2.jpg" alt="Teclado de piano">
+                <h3>Piano</h3>
+                <p>Instrumento de teclado versátil, fundamental en la música clásica y el jazz.</p>
+            </div>
+            <div class="instrument-card">
+                <img src="imag/bateria.jpg"Set de batería">
+                <h3>Batería</h3>
+                <p>Un conjunto de percusión esencial para mantener el ritmo y la base en la mayoría de bandas.</p>
+            </div>
+            <div class="instrument-card">
+                <img src="imag/violinin clas.jpg alt="Violín clásico">
+                <h3>Violín</h3>
+                <p>Instrumento de cuerda frotada, conocido por su tono expresivo y su papel en orquestas.</p>
+            </div>
+            <div class="instrument-card">
+                <img src="imag/sax.jpg alt="Saxofón brillante">
+                <h3>Saxofón</h3>
+                <p>Un instrumento de viento-madera popular en el jazz, blues y música contemporánea.</p>
+            </div>
+            <div class="instrument-card">
+                <img src="imag/traver.jpg"Flauta travesera">
+                <h3>Flauta</h3>
+                <p>Instrumento de viento-madera antiguo, que produce sonidos melódicos y aireados.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Explorando la Música. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
